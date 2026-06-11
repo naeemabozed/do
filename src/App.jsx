@@ -89,6 +89,35 @@ function App() {
           </div>
         </div>
       </div>
+      <section>
+        <div>
+          <h2 className='text-2xl font-bold'>
+            Create todo with
+            <span className='text-3xl font-bold text-blue-600'>
+              Do It
+            </span>
+          </h2>
+        </div>
+        <div>
+
+          <div>
+            <form>
+              <input type="text" placeholder='Enter your todo' />
+              <button type="submit">Add Todo</button>
+            </form>
+            <ul>
+              <li>
+                <p>Todo 1</p>
+                <button>Delete</button>
+              </li>
+              <li>
+                <p>Todo 2</p>
+                <button>Delete</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
